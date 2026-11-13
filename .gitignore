@@ -1,0 +1,16 @@
+build/
+.DerivedData/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+Vendor/idevice-build/
+outputs/
+*.ipa
+Payload/
+Locus.xcodeproj/
+Vendor/idevice/libidevice_ffi.a
+Vendor/idevice/*.download
+*.mobiledevicepairing
+*.mobiledevicepair
+rp_pairing_file.plist

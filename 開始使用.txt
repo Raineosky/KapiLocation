@@ -1,0 +1,22 @@
+卡皮定位 0.2.0 — 原始碼交付版
+
+重要：這份 ZIP 不是可以直接安裝的 IPA，也尚未通過 Xcode 編譯與 iPhone 實測。
+
+建議操作順序：
+1. 在 Windows 解壓縮本檔。
+2. 用 GitHub Desktop 建立自己的儲存庫，把本資料夾內的全部內容複製進去並發布。
+3. 到 GitHub 的 Actions → Build KapiLocation IPA → Run workflow。
+4. 成功後下載 Artifacts 內的 KapiLocation-unsigned，解壓縮取得 IPA。
+5. 用 Sideloadly 或 AltStore Classic 簽署安裝 IPA。
+6. 打開 LocalDevVPN 並連線，再開「卡皮定位」匯入自己的 RPPairing 檔。
+
+配對檔與 Apple ID 密碼都不用交給我或上傳到 GitHub。
+完整步驟、功能與更新方式請閱讀 README.md（Windows 記事本可開啟）。
+如果 Actions 編譯失敗，提供失敗步驟的錯誤訊息即可協助修正。
+
+本次更新：
+- 長按地圖並放開後，選「設為起點」或「設為終點」；重複一次設定另一端。
+- 點「開始種花」會自動建立道路路線並沿線行走，使用右下角「停止」可結束。
+- 已匯入的 GPX 可直接按「開始種花」；路線頁「匯入 GPX」會開啟檔案選擇器。
+- 界面與設定流程改為繁體中文；「定位」按鈕改成「瞬移」。
+- 需以相同 Apple ID 與相同 Bundle ID 簽署並覆蓋安裝，才可保留原設定；更新前仍建議匯出收藏備份。
